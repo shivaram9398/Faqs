@@ -1,0 +1,35 @@
+.item-con {
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 0px 25px 0px 25px;
+  margin: 10px;
+  list-style-type: none;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.button {
+  align-self: flex-end;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.para {
+  color: #52606d;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.answer {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #9aa5b1;
+}
